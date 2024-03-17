@@ -407,9 +407,9 @@ header ul li a:hover{
 
 
 @media screen and (max-width:480px) {
-    .home header ul li a {
-        padding: 15px 37px;
-    }
+    /* .home header ul li a {
+        padding: 19px px;
+    } */
 
     .all{
         padding: 0 4%;
@@ -430,7 +430,7 @@ header ul li a:hover{
     }
 
     .people .jane button{
-        padding: 10px 42%;
+        padding: 10px 45%;
         font-size: 15px;
     }
     
@@ -440,16 +440,22 @@ header ul li a:hover{
 }
 
 
-@media screen and (max-width:390px) {
+@media screen and (max-width:428px) {
     .home header ul li a {
-        padding: 15px 32px;
-    }
-
-    .all{
-        padding: 0 4%;
+        padding: 15px 87px;
     }
 
     .people .jane button{
-        padding: 10px 41%;
+        padding: 10px 45.5%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .home header ul li a {
+        padding: 15px 76px;
+    }
+
+    .people .jane button{
+        padding: 10px 45%;
     }
 }
