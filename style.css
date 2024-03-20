@@ -331,7 +331,7 @@ header ul li a:hover{
     background-color: black;
     border: none;
     color: white;
-    padding: 10px 20px;
+    padding: 15px 20px;
     margin-bottom: 20px;
     font-size: 20px;
 }
@@ -339,11 +339,28 @@ header ul li a:hover{
 .footer .foot button:hover{
     color: black;
     background-color: #ccc;
+}
 
+.footer .foot button a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #ccc;
+}
+
+.footer .foot button a:hover{
+    color: black;
 }
 
 .footer .icons{
     font-size: 30px;color: #403d3d;
+}
+
+.footer .icons a{
+    color: #433f3f;
+}
+
+.footer .icons a:hover{
+    color: blue;
 }
 
 .footer p span{
@@ -407,9 +424,13 @@ header ul li a:hover{
 
 
 @media screen and (max-width:480px) {
-    /* .home header ul li a {
-        padding: 19px px;
-    } */
+    .home header{
+        width: 100%;
+    }
+
+    .home header ul li a {
+        padding: 15px 37px;
+    }
 
     .all{
         padding: 0 4%;
@@ -418,11 +439,14 @@ header ul li a:hover{
     .base{
         display: flex;
         flex-direction: column;
-        width: 223%;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
 
     .base .basic{
         margin: 5px 0;
+        width: 95%;
     }
 
     .people{
@@ -430,32 +454,69 @@ header ul li a:hover{
     }
 
     .people .jane button{
-        padding: 10px 45%;
+        padding: 10px 42%;
         font-size: 15px;
     }
     
     .people .jane{
         margin: 10px 0;
     }
-}
 
-
-@media screen and (max-width:428px) {
-    .home header ul li a {
-        padding: 15px 87px;
-    }
-
-    .people .jane button{
-        padding: 10px 45.5%;
+    .container .button button{
+        width: 100%;
+        margin-right: 10px;
     }
 }
 
-@media screen and (max-width:375px) {
+
+@media screen and (max-width:430px) {
     .home header ul li a {
-        padding: 15px 76px;
+        padding: 15px 32px;
+    }
+}
+
+
+@media screen and (max-width:395px) {
+    .home header ul li a {
+        padding: 15px 26px;
+    }
+
+    .all{
+        padding: 0 4%;
     }
 
     .people .jane button{
-        padding: 10px 45%;
+        padding: 10px 40%;
+    }
+}
+
+
+@media screen and (max-width:360px) {
+    .home header ul li a {
+        padding: 15px 23px;
+    }
+
+    .people .jane button{
+        padding: 10px 39%;
+    }
+}
+
+@media screen and (max-width:414px) {
+    .home header ul li a {
+        /* padding: 15px 30px; */
+    }
+
+    .people .jane button{
+        /* padding: 10px 40.5%; */
+    }
+}
+
+@media screen and (max-width:320px) {
+    .home header ul li a {
+        padding: 15px 18px;
+    }
+
+    .people .jane button{
+        padding: 10px 38%;
     }
 }
